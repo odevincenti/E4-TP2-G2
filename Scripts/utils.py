@@ -1,7 +1,11 @@
 import numpy as np
 
-C_values = np.array([150E-12, 180E-12, 270E-12, 560E-12, 820E-12, 1E-9, 1.5E-9, 2E-9, 2.2E-9, 2.7E-9, 3.3E-9, 4.7E-9, 5.6E-9, 6.8E-9, 8.2E-9, 10E-9, 12E-9, 22E-9, 33E-9, 39E-9, 47E-9, 100E-9, 150E-9, 220E-9, 330E-9, 1E-6])
-R_values = np.array([10.0, 100.0, 120.0, 150.0, 220.0, 330.0, 390.0, 560.0, 1E3, 1.2E3, 1.5E3, 1.8E3, 2.2E3, 2.7E3, 3E3, 3.3E3, 3.9E3, 4.7E3, 5.6E3, 6.2E3, 10E3, 12E3, 15E3, 20E3, 22E3, 27E3, 33E3, 39E3, 47E3, 56E3, 82E3, 100E3, 220E3, 300E3, 470E3, 820E3])
+R_base_values = [1, 1.2, 1.5, 1.8, 2.2, 2.7, 3.3, 3.9, 4.7, 5.1, 5.6, 6.8, 8.2]
+
+C_values = np.array([10E-12, 15E-12, 22E-12, 33E-12, 47E-12, 100E-12, 120E-12, 130E-12, 150E-12, 180E-12, 220E-12, 330E-12, 470E-12, 560E-12, 680E-12, 750E-12, 820E-12, 
+		     1E-9, 1.5E-9, 2E-9, 2.2E-9, 3.3E-9, 4.7E-9, 5E-9, 5.6E-9, 6.8E-9, 10E-9, 15E-9, 22E-9, 33E-9, 47E-9, 68E-9, 100E-9, 150E-9, 200E-9, 220E-9, 330E-9, 470E-9, 680E-9, 
+			 1E-6, 1.5E-6, 2E-6, 2.2E-6, 3.3E-6, 4.7E-6, 5E-6, 5.6E-6, 6.8E-6, 10E-6, 22E-6, 47E-6, 100E-6, 220E-6, 330E-6, 470E-6])
+R_values = (np.array([R_base_values[i]*10**j for j in range(6) for i in range(len(R_base_values))])).flatten()
 
 def to_unit(num, sf=3):
 	"""Round a number to the specified significant figures (default is 3) and add the corresponding unit prefix.
