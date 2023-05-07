@@ -1,0 +1,25 @@
+* C:\Users\User\Repos\E4-TP2-G2\Simulaciones\SG3525_conection.asc
+Css N005 0 5µ
+CT N003 0 3.3n
+XU1 N001 Vref_comp NC_01 Vosc N003 N004 N003 N005 PWM_in 0 NC_02 0 Vmed N002 Vmed Vref SG3525A
+Rb Vo_comp Vmed 33k
+Ra 0 Vo_comp 5.6k
+R4 Vref_comp Vref 12k
+R5 0 Vref_comp 10k
+Rg VG N002 56 pwr=0.65
+R1 N001 Vo_comp 470
+RT N004 0 2.7k
+Cd Vmed 0 100n
+Vo Vmed 0 PULSE(15 17 0 20u 20u 0 40u)
+R2 PWM_in N001 10k
+* fsw= 2/(CT*(RT*0.7))
+* Con CT=3.3nF y RT = 2.8kOhm\n=> fsw = 75KHz
+.inc SG3525A.sub
+* Frecuencia
+* Divisor Vo
+* Divisor Vref
+.tran 0 100u 0 0.1u
+* Entrada
+* Simulación
+.backanno
+.end
