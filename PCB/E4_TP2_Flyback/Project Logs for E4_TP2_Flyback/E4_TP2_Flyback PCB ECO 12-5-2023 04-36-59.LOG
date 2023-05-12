@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=Vref_comp Pin=Rb_ref-2
+Change Component Comment : Designator=Rb_ref Old Comment=12k New Comment=10k
+Added Component: Designator=Rtrim_ref(PRESET V)
+Added Pin To Net: NetName=Vref_comp Pin=Rtrim_ref-1
+Added Pin To Net: NetName=Vref_comp Pin=Rtrim_ref-2
+Added Pin To Net: NetName=NetRb_ref_2 Pin=Rb_ref-2
+Added Pin To Net: NetName=NetRb_ref_2 Pin=Rtrim_ref-3
+Added Net: Name=NetRb_ref_2
+Added Member To Class: ClassName=E4_TP2_Flyback Member=Component Rtrim_ref PRESET 5k

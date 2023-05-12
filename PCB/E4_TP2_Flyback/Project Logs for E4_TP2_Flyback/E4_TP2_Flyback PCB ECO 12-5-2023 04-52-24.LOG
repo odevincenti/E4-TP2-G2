@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=Vo3 Pin=C3-1
+Removed Pin From Net: NetName=Vo3 Pin=D3-2
+Removed Pin From Net: NetName=Vref_comp Pin=Rtrim_ref-2
+Added Component: Designator=Jaux(JUMPER2)
+Added Pin To Net: NetName=Vo3 Pin=Jaux-1
+Added Pin To Net: NetName=NetRb_ref_2 Pin=Rtrim_ref-2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_1 Pin=D3-2
+Added Pin To Net: NetName=NetC3_1 Pin=Jaux-2
+Added Net: Name=NetC3_1
+Added Member To Class: ClassName=E4_TP2_Flyback Member=Component Jaux JUMPER

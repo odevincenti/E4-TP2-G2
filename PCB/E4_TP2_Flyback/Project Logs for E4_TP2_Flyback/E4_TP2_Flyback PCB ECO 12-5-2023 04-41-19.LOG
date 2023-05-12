@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=Vref_comp Pin=Rtrim_ref-2
+Change Component Footprint: Designator=Cin Old Footprint=CAP200RP2 New Footprint=CAP300RP
+Added Pin To Net: NetName=NetRb_ref_2 Pin=Rtrim_ref-2
