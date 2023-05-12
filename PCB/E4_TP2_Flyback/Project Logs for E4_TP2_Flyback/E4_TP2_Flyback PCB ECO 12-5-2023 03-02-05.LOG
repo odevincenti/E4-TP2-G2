@@ -1,0 +1,163 @@
+Added Component: Designator=C2(CAP200RP)
+Added Component: Designator=C3(CAP200RP)
+Added Component: Designator=Cd(CAP100)
+Added Component: Designator=Cf1(CAP100)
+Added Component: Designator=Cf2(CAP100)
+Added Component: Designator=Chk(CAP100RP)
+Added Component: Designator=Cin(CAP200RP2)
+Added Component: Designator=Csnu(CAP200)
+Added Component: Designator=Css(CAP100RP)
+Added Component: Designator=CT(CAP100)
+Added Component: Designator=D1(PUENTE - W10M)
+Added Component: Designator=D2(DO41)
+Added Component: Designator=D3(DO41)
+Added Component: Designator=Dsnu(DO41)
+Added Component: Designator=Jin(BORNERA2)
+Added Component: Designator=Jo2(BORNERA2)
+Added Component: Designator=Jo3(BORNERA2)
+Added Component: Designator=LED3(LED3)
+Added Component: Designator=Ltrans(B66243B1018T001)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "B66243B1018T001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/b66243b1018t001/epcos-tdk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-acc/data_sheet/80/db/fer/e_42_21_20.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "51mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "TDK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "B66243B1018T001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "N/A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B66243B1018T001?qs=W0yvOO0ixfHL1dNOx1DZxg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=PWM(DIP850W50P254L2000H510Q16N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "SG3525AN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/sg3525an/stmicroelectronics?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://componentsearchengine.com/Datasheets/3/SG3525AN.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "5.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SG3525AN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "511-SG3525AN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SG3525AN?qs=lgHKUCmDFthRkkwDjx3E7g%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(TO-220 V)
+Added Component: Designator=Ra_o(RES400)
+Added Component: Designator=Ra_ref(RES400)
+Added Component: Designator=Rb_o(RES400)
+Added Component: Designator=Rb_ref(RES400)
+Added Component: Designator=Rf1(RES400)
+Added Component: Designator=Rf2(RES400)
+Added Component: Designator=Rg(RES600)
+Added Component: Designator=Rhk1(RES400)
+Added Component: Designator=Rhk2(RES400)
+Added Component: Designator=Rled3(RES400)
+Added Component: Designator=Rsnu(RES600)
+Added Component: Designator=RT1(RES400)
+Added Component: Designator=RT2(PRESET V)
+Added Pin To Net: NetName=GND Pin=Ltrans-8
+Added Pin To Net: NetName=GND Pin=Ltrans-13
+Added Net: Name=GND
+Added Pin To Net: NetName=NetCf1_1 Pin=Cf1-1
+Added Pin To Net: NetName=NetCf1_1 Pin=Rf2-1
+Added Net: Name=NetCf1_1
+Added Pin To Net: NetName=NetCf1_2 Pin=Cf1-2
+Added Pin To Net: NetName=NetCf1_2 Pin=Cf2-2
+Added Pin To Net: NetName=NetCf1_2 Pin=PWM-1
+Added Pin To Net: NetName=NetCf1_2 Pin=Rf1-2
+Added Net: Name=NetCf1_2
+Added Pin To Net: NetName=NetCf2_1 Pin=Cf2-1
+Added Pin To Net: NetName=NetCf2_1 Pin=PWM-9
+Added Pin To Net: NetName=NetCf2_1 Pin=Rf2-2
+Added Net: Name=NetCf2_1
+Added Pin To Net: NetName=NetCsnu_1 Pin=Csnu-1
+Added Pin To Net: NetName=NetCsnu_1 Pin=Dsnu-2
+Added Pin To Net: NetName=NetCsnu_1 Pin=Rsnu-2
+Added Net: Name=NetCsnu_1
+Added Pin To Net: NetName=NetCss_1 Pin=Css-1
+Added Pin To Net: NetName=NetCss_1 Pin=PWM-8
+Added Net: Name=NetCss_1
+Added Pin To Net: NetName=NetCT_1 Pin=CT-1
+Added Pin To Net: NetName=NetCT_1 Pin=PWM-5
+Added Pin To Net: NetName=NetCT_1 Pin=PWM-7
+Added Net: Name=NetCT_1
+Added Pin To Net: NetName=NetLED3_2 Pin=LED3-2
+Added Pin To Net: NetName=NetLED3_2 Pin=Rled3-1
+Added Net: Name=NetLED3_2
+Added Pin To Net: NetName=NetPWM_6 Pin=PWM-6
+Added Pin To Net: NetName=NetPWM_6 Pin=RT1-2
+Added Net: Name=NetPWM_6
+Added Pin To Net: NetName=NetPWM_16 Pin=PWM-16
+Added Pin To Net: NetName=NetPWM_16 Pin=Rb_ref-1
+Added Net: Name=NetPWM_16
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=Rg-2
+Added Net: Name=NetQ1_1
+Added Pin To Net: NetName=NetRT1_1 Pin=RT1-1
+Added Pin To Net: NetName=NetRT1_1 Pin=RT2-1
+Added Pin To Net: NetName=NetRT1_1 Pin=RT2-2
+Added Net: Name=NetRT1_1
+Added Pin To Net: NetName=PGND Pin=C3-2
+Added Pin To Net: NetName=PGND Pin=Cd-2
+Added Pin To Net: NetName=PGND Pin=Chk-2
+Added Pin To Net: NetName=PGND Pin=Cin-2
+Added Pin To Net: NetName=PGND Pin=Csnu-2
+Added Pin To Net: NetName=PGND Pin=Css-2
+Added Pin To Net: NetName=PGND Pin=CT-2
+Added Pin To Net: NetName=PGND Pin=D1-2
+Added Pin To Net: NetName=PGND Pin=Jo3-1
+Added Pin To Net: NetName=PGND Pin=PWM-10
+Added Pin To Net: NetName=PGND Pin=PWM-12
+Added Pin To Net: NetName=PGND Pin=Q1-3
+Added Pin To Net: NetName=PGND Pin=Ra_o-2
+Added Pin To Net: NetName=PGND Pin=Ra_ref-2
+Added Pin To Net: NetName=PGND Pin=Rhk2-2
+Added Pin To Net: NetName=PGND Pin=Rled3-2
+Added Pin To Net: NetName=PGND Pin=RT2-3
+Added Net: Name=PGND
+Added Pin To Net: NetName=PWM Pin=PWM-14
+Added Pin To Net: NetName=PWM Pin=Rg-1
+Added Net: Name=PWM
+Added Pin To Net: NetName=SGND Pin=C2-2
+Added Pin To Net: NetName=SGND Pin=Jo2-1
+Added Net: Name=SGND
+Added Pin To Net: NetName=Vd Pin=Cin-1
+Added Pin To Net: NetName=Vd Pin=D1-4
+Added Pin To Net: NetName=Vd Pin=Ltrans-1
+Added Pin To Net: NetName=Vd Pin=Rhk1-1
+Added Net: Name=Vd
+Added Pin To Net: NetName=Vin+ Pin=D1-1
+Added Pin To Net: NetName=Vin+ Pin=Jin-2
+Added Net: Name=Vin+
+Added Pin To Net: NetName=Vin- Pin=D1-3
+Added Pin To Net: NetName=Vin- Pin=Jin-1
+Added Net: Name=Vin-
+Added Pin To Net: NetName=VL1- Pin=Dsnu-1
+Added Pin To Net: NetName=VL1- Pin=Ltrans-5
+Added Pin To Net: NetName=VL1- Pin=Q1-2
+Added Pin To Net: NetName=VL1- Pin=Rsnu-1
+Added Net: Name=VL1-
+Added Pin To Net: NetName=VL2 Pin=D2-1
+Added Pin To Net: NetName=VL2 Pin=Ltrans-4
+Added Net: Name=VL2
+Added Pin To Net: NetName=VL3 Pin=D3-1
+Added Pin To Net: NetName=VL3 Pin=Ltrans-9
+Added Net: Name=VL3
+Added Pin To Net: NetName=Vo2 Pin=C2-1
+Added Pin To Net: NetName=Vo2 Pin=D2-2
+Added Pin To Net: NetName=Vo2 Pin=Jo2-2
+Added Net: Name=Vo2
+Added Pin To Net: NetName=Vo3 Pin=C3-1
+Added Pin To Net: NetName=Vo3 Pin=Cd-1
+Added Pin To Net: NetName=Vo3 Pin=Chk-1
+Added Pin To Net: NetName=Vo3 Pin=D3-2
+Added Pin To Net: NetName=Vo3 Pin=Jo3-2
+Added Pin To Net: NetName=Vo3 Pin=LED3-1
+Added Pin To Net: NetName=Vo3 Pin=PWM-13
+Added Pin To Net: NetName=Vo3 Pin=PWM-15
+Added Pin To Net: NetName=Vo3 Pin=Rb_o-2
+Added Pin To Net: NetName=Vo3 Pin=Rhk1-2
+Added Pin To Net: NetName=Vo3 Pin=Rhk2-1
+Added Net: Name=Vo3
+Added Pin To Net: NetName=Vo_comp Pin=Ra_o-1
+Added Pin To Net: NetName=Vo_comp Pin=Rb_o-1
+Added Pin To Net: NetName=Vo_comp Pin=Rf1-1
+Added Net: Name=Vo_comp
+Added Pin To Net: NetName=Vref_comp Pin=PWM-2
+Added Pin To Net: NetName=Vref_comp Pin=Ra_ref-1
+Added Pin To Net: NetName=Vref_comp Pin=Rb_ref-2
+Added Net: Name=Vref_comp
+Added Class: Name=E4_TP2_Flyback
