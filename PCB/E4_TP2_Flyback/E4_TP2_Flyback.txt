@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : C:\Users\User\Repos\E4-TP2-G2\PCB\E4_TP2_Flyback\E4_TP2_Flyback.PcbDoc
+Date         : 12/5/2023
+Time         : 12:15:40
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 100,00%
+    Connections, 74
+    Connections routed, 74
+    Connections remaining, 0
+count : 4
